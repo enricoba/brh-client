@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  brhclient:
+    container_name: brhclient
+    image: brhclient:0.0.1a
+    build:
+      dockerfile: Dockerfile
